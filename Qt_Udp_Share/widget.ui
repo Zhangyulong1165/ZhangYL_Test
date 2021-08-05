@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1009</width>
+    <height>586</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="labelShow">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-radius:3px;
+border-width:1px 1px 1px 1px;
+border-color:rgb(0,99,255);
+image:url(:back); </string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="control">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>132</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>132</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-radius:3px;
+border-width:1px 1px 1px 1px;
+border-color:rgb(0,99,255);</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>3</number>
+      </property>
+      <property name="rightMargin">
+       <number>3</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="btnStartShare">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+                                font-family:&quot;Microsoft Yahei&quot;;
+        border: none;
+                                color: rgb(255,255,255);
+                                background: rgb(56,167,222);
+                                font-size: 19px;				/*14榜*/
+}
+
+QPushButton:hover {
+
+        padding-bottom: 2px;
+        background: rgb(66,177,232);
+
+}
+QPushButton:pressed {
+        background: rgb(56,167,222);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>开启共享</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnFull">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+                                font-family:&quot;Microsoft Yahei&quot;;
+        border: none;
+                                color: rgb(255,255,255);
+                                background: rgb(56,167,222);
+                                font-size: 16px;				/*14榜*/
+}
+
+QPushButton:hover {
+
+        padding-bottom: 2px;
+        background: rgb(66,177,232);
+
+}
+QPushButton:pressed {
+        background: rgb(56,167,222);
+}
+</string>
+        </property>
+        <property name="text">
+         <string>全屏(按ESC退出)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboQuality">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <item>
+         <property name="text">
+          <string>发送质量低</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>发送质量中</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>发送质量高</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelFPS">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(200,20,20);
+font-family:&quot;Microsoft Yahei&quot;;
+         font-size: 18px;				/*11榜*/
+border-radius:0px;
+border-width:0px 0px 0px 0px;</string>
+        </property>
+        <property name="text">
+         <string>当前FPS: 0 </string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelByte">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(200,20,20);
+font-family:&quot;Microsoft Yahei&quot;;
+         font-size: 18px;				/*11榜*/
+border-radius:0px;
+border-width:0px 0px 0px 0px;</string>
+        </property>
+        <property name="text">
+         <string>每帧: 0KB</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelHint">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>130</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(7,62,147);
+font-family:&quot;Microsoft Yahei&quot;;
+         font-size: 16px;				/*11榜*/
+
+border-radius:0px;
+border-width:0px 0px 0px 0px;</string>
+        </property>
+        <property name="text">
+         <string>初始化中...</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
