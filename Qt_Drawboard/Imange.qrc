@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/27撤销.png</file>
+        <file>Images/Flase.png</file>
+        <file>Images/点 (1).png</file>
+        <file>Images/点 (2).png</file>
+        <file>Images/点.png</file>
+        <file>Images/画笔.png</file>
+        <file>Images/橡皮.png</file>
+        <file>Images/指向-left (1).png</file>
+        <file>Images/指向-left.png</file>
+        <file>Images/指向-right (1).png</file>
+        <file>Images/指向-right.png</file>
+        <file>Images/删 除.png</file>
+    </qresource>
+</RCC>
