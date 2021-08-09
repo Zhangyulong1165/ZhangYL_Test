@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/FrmCaptureTool">
+        <file>Resources/screenImg/Arrow.png</file>
+        <file>Resources/screenImg/Brush.PNG</file>
+        <file>Resources/screenImg/Circle.png</file>
+        <file>Resources/screenImg/cursor-move.png</file>
+        <file>Resources/screenImg/Exit.png</file>
+        <file>Resources/screenImg/Finish.png</file>
+        <file>Resources/screenImg/line_weight_3.png</file>
+        <file>Resources/screenImg/line_weight_4.png</file>
+        <file>Resources/screenImg/line_weight_5.png</file>
+        <file>Resources/screenImg/Magnifier.png</file>
+        <file>Resources/screenImg/Mosaic.png</file>
+        <file>Resources/screenImg/Rectangle.png</file>
+        <file>Resources/screenImg/Save.png</file>
+        <file>Resources/screenImg/Text.png</file>
+        <file>Resources/screenImg/Undo.png</file>
+        <file>Resources/screenImg/btn_down.png</file>
+        <file>Resources/screenImg/btn_hover.png</file>
+    </qresource>
+</RCC>
