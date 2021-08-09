@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>hahahha</title>
+  <div>asdasdasdasdas</div>
+</head>
+<body>
+  <script src="qwebchannel.js"></script> 
+  <script type="text/javascript">
+  new QWebChannel(qt.webChannelTransport,
+  function(channel){
+    var webJsObj = channel.objects.webJsObj;
+    window.foo = webJsObj;
+    // webobj.content = "123456"
+    webJsObj.jscallme("hahahha", "https://cdn.m.tbkt.cn/hdkt_resources/43/76/rjbyish13002.pptx");
+  });
+  </script>
+</body>
+</html>
