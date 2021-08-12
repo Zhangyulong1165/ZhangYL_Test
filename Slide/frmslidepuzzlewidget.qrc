@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/FrmSlidePuzzleWidget">
+        <file>Resources/tu1.png</file>
+        <file>Resources/tu2.png</file>
+    </qresource>
+</RCC>
