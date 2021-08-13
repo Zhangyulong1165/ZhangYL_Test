@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/CustomFileDialog">
+        <file>Resources/back.png</file>
+        <file>Resources/sysclose_hover.png</file>
+        <file>Resources/sysmin.png</file>
+        <file>Resources/sysmin_hover.png</file>
+        <file>Resources/sysclose.png</file>
+        <file>Resources/drop-down.png</file>
+        <file>Resources/drop-up.png</file>
+        <file>qt_zh_CN.qm</file>
+    </qresource>
+</RCC>
