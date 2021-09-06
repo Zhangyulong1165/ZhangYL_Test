@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imanges/0.jpg</file>
+        <file>imanges/1.jpg</file>
+        <file>imanges/2.jpg</file>
+        <file>imanges/3.jpg</file>
+        <file>imanges/4.jpg</file>
+        <file>imanges/5.jpg</file>
+        <file>imanges/6.jpg</file>
+    </qresource>
+</RCC>
