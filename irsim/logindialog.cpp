@@ -76,6 +76,7 @@ void LoginDialog::labTipShow(QString tips)
 
 void LoginDialog::on_pbnLogin_clicked()
 {
+    //qDebug()<<"点击了登录按钮";
     if(ui->lineEditUser->text().isEmpty() || ui->lineEditPwd->text().isEmpty()){
         labTipShow("用户名或者密码不能为空！");
     }

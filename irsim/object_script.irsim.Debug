@@ -1,0 +1,13 @@
+INPUT(
+./debug\logindialog.o
+./debug\main.o
+./debug\irsim.o
+./debug\mydatabase.o
+./debug\mylog.o
+./debug\qrc_pic.o
+./debug\qrc_qss.o
+./debug\moc_irsim.o
+./debug\moc_logindialog.o
+./debug\moc_mydatabase.o
+./debug\moc_mylog.o
+);
