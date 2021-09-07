@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/loginDialog.qss</file>
+        <file>qss/irsim.qss</file>
+    </qresource>
+</RCC>
