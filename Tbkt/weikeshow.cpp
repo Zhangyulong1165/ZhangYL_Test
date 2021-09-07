@@ -12,7 +12,7 @@ QString weikeshow::chaeakweike()
     request.setRawHeader("Content-Type", "application/json");
 //    request.setRawHeader("catalog_id", "6");
     QSslConfiguration config = QSslConfiguration::defaultConfiguration();
-    config.setProtocol(QSsl::TlsV1_3);
+    config.setProtocol(QSsl::TlsV1_0);
     config.setPeerVerifyMode(QSslSocket::VerifyNone);
     request.setSslConfiguration(config);
     QNetworkReply* reply = networkAccessManager.post(request,QJsonDocument(jsonObject).toJson());

@@ -28,7 +28,7 @@ void Add_flower::addFlower(QString cardId,int num,QString stu_ids)
     QNetworkRequest request(QUrl("https://sapikz-rc.m.tbkt.cn/unit/add_flower"));
     request.setRawHeader("Content-Type", "application/json");
     QSslConfiguration config = QSslConfiguration::defaultConfiguration();
-    config.setProtocol(QSsl::TlsV1_3);
+    config.setProtocol(QSsl::TlsV1_0);
     config.setPeerVerifyMode(QSslSocket::VerifyNone);
     request.setSslConfiguration(config);
     QNetworkReply* reply = networkAccessManager.post(request,QJsonDocument(jsonObject).toJson());

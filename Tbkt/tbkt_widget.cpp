@@ -549,7 +549,7 @@ void Tbkt_Widget::weikes()
     QNetworkRequest request(QUrl("https://sapikz-rc.m.tbkt.cn/account/profile_kz"));
     request.setRawHeader("Content-Type", "application/json");
     QSslConfiguration config = QSslConfiguration::defaultConfiguration();
-    config.setProtocol(QSsl::TlsV1_3);
+    config.setProtocol(QSsl::TlsV1_0);
     config.setPeerVerifyMode(QSslSocket::VerifyNone);
     request.setSslConfiguration(config);
     QNetworkReply* reply = manager.post(request,QJsonDocument(jsonObject).toJson());

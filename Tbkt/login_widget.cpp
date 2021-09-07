@@ -71,7 +71,7 @@ void Login_widget::pctimer_timeout()
     QNetworkRequest request(QUrl("https://sapikz-rc.m.tbkt.cn"));
     request.setRawHeader("Content-Type", "application/json");
     QSslConfiguration config = QSslConfiguration::defaultConfiguration();
-    config.setProtocol(QSsl::TlsV1_3);
+    config.setProtocol(QSsl::TlsV1_0);
     config.setPeerVerifyMode(QSslSocket::VerifyNone);
     request.setSslConfiguration(config);
     QNetworkReply* reply = manager.post(request,QJsonDocument(jsonObject).toJson());
@@ -331,7 +331,7 @@ bool Login_widget::Denglujiance()
         QNetworkRequest request(QUrl("https://sapikz-rc.m.tbkt.cn/account/login"));
         request.setRawHeader("Content-Type", "application/json");
         QSslConfiguration config = QSslConfiguration::defaultConfiguration();
-        config.setProtocol(QSsl::TlsV1_3);
+        config.setProtocol(QSsl::TlsV1_0);
         config.setPeerVerifyMode(QSslSocket::VerifyNone);
         request.setSslConfiguration(config);
         QNetworkReply* reply = manager.post(request,QJsonDocument(jsonObject).toJson());

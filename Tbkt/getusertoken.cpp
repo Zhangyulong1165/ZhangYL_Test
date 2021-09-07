@@ -15,7 +15,7 @@ QString GetUserToken::GetUserClassInfo()
     QNetworkRequest request(QUrl("https://sapikz-rc.m.tbkt.cn/unit/stu_list"));
     request.setRawHeader("Content-Type", "application/json");
     QSslConfiguration config = QSslConfiguration::defaultConfiguration();
-    config.setProtocol(QSsl::TlsV1_3); //rc 环境TlsV1_3
+    config.setProtocol(QSsl::TlsV1_0); //rc 环境TlsV1_3
     config.setPeerVerifyMode(QSslSocket::VerifyNone);
     request.setSslConfiguration(config);
     QNetworkReply* reply = networkAccessManager.post(request,QJsonDocument(jsonObject).toJson());
@@ -62,7 +62,7 @@ QString GetUserToken::GetUserClassInfo()
                  if (value.isObject())
                  {
                      QJsonObject obj = value.toObject();
-                     if (obj.contains("student_list"))
+                     /*if (obj.contains("student_list"))
                      {
                         QJsonArray array = value["student_list"].toArray();
                          int nSize = array.size();
@@ -79,7 +79,7 @@ QString GetUserToken::GetUserClassInfo()
                               info.firstname  = value["firstname"].toString();
                               stuMsg.append(info);
                           }
-                     }
+                     }*/
                  }
             }
 
