@@ -1,8 +1,0 @@
-bin/
-UI/
-debug/
-release/
-MakeFile
-.qmake.stash
-Tbkt.pro.user
-Makefile.*

@@ -3,11 +3,13 @@ INPUT(
 ./release\main.o
 ./release\irsim.o
 ./release\mydatabase.o
-./release\mylog.o
+./release\settingdialog.o
+./release\testdialog.o
 ./release\qrc_pic.o
 ./release\qrc_qss.o
 ./release\moc_irsim.o
 ./release\moc_logindialog.o
 ./release\moc_mydatabase.o
-./release\moc_mylog.o
+./release\moc_settingdialog.o
+./release\moc_testdialog.o
 );

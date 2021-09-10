@@ -23,7 +23,7 @@ void WriteLog(QString str, QString LogType)
     qDebug()<<filePath;
     QString strToWrite = "日志产生时间：" + QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
     strToWrite.append(QString("\r\n日志消息：%1").arg(str));
-    strToWrite.append("\r\n---------------------------------------------------------------------");
+    strToWrite.append("\r\n---------------------------------------------------------------------\r\n");
     QFile file(filePath);
     if( file.open(QIODevice::WriteOnly | QIODevice::Append)){
         QTextStream text_stream(&file);

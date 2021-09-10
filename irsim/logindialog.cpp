@@ -46,6 +46,8 @@ void LoginDialog::initDialog()
     setWindowTitle("用户登录");
     ui->pbnLogin->setText("登录");
     ui->lineEditUser->setFocus();
+    ui->lineEditUser->setText("zs");
+    ui->lineEditPwd->setText("zxc123456");
 }
 
 void LoginDialog::addDataBase()
