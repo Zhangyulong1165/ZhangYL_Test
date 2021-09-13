@@ -1,6 +1,0 @@
-日志产生时间：2021-09-10 13:35:45
-日志消息：Warning: setGeometry: Unable to set geometry 959x600+680+390 on QWidgetWindow/'IrsimWindow'. Resulting geometry:  800x600+680+390 (frame: 0, 0, 0, 0, custom margin: 0, 0, 0, 0, minimum size: 959x187, maximum size: 16777215x16777215). (qwindowswindow.cpp:1478, virtual void QWindowsWindow::setGeometry(const QRect&))
----------------------------------------------------------------------
-日志产生时间：2021-09-10 13:35:56
-日志消息：Warning: setGeometry: Unable to set geometry 640x480+948+612 on QWidgetWindow/'QMessageBoxClassWindow'. Resulting geometry:  265x156+948+612 (frame: 3, 37, 3, 3, custom margin: 0, 0, 0, 0, minimum size: 265x156, maximum size: 265x156). (qwindowswindow.cpp:1478, virtual void QWindowsWindow::setGeometry(const QRect&))
----------------------------------------------------------------------

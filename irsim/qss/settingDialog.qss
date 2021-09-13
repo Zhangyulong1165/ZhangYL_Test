@@ -1,5 +1,0 @@
-QFrame#frame{
-border: 1px solid;
-border-radius: 10px;
-background-image: url(:/image/de2.png);
-}
